@@ -3,6 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
+    title: "Gatsby Website Learning....",
+    description: "This is my first Gatsby Website, Built with GrahQL.",
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [`gatsby-plugin-image`, `gatsby-plugin-sharp`],
