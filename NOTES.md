@@ -33,7 +33,9 @@ gatsby --help
   - I noticed something _interesting_ while experimenting with `link` component. It's actually VERY similar to `a` tag. When I click on link component then there is no _page reloading_, And while in `a` tag there is page-reloading.
 
 - **Plugins** ➡️ You can install a plugin using `npm install <plugin-name>`
+
   - Then configure it in file `gatsby-config.js` file.
+
   ```js
   module.exports = {
     siteMetadata: {
@@ -42,4 +44,7 @@ gatsby --help
     plugins: ["plugin-name"],
   };
   ```
+
   - After making changes in `gatsby-config.js` file, Please **restart** **`gatsby develop`** process for updation of changes.
+
+- `gatsby clean` : Run this command when something isn't going well in _gatsby server_, It will clean all the caches and stuff. And restart a fresh server on next build.

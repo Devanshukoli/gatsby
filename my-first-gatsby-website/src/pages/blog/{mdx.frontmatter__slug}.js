@@ -1,6 +1,6 @@
 import * as React from 'react'
-import Layout from '../component/layout'
-import Seo from '../component/seo'
+import Layout from '../../component/layout'
+import Seo from '../../component/seo'
 
 const BlogPost = () => {
     return (
