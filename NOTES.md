@@ -31,6 +31,8 @@ gatsby --help
 - In Gatsby, `link` component provides a cool feature called **preloading**. Meaning when linked page are requested when the link scrolls into view or when the mouse hovers on it.
 
   - I noticed something _interesting_ while experimenting with `link` component. It's actually VERY similar to `a` tag. When I click on link component then there is no _page reloading_, And while in `a` tag there is page-reloading.
+  - **PRO TIP** : Gatsby's `Link` component only gives performance benefits for internal links to other pages within your site.
+  ( for example, *credit links*, for them you can use `<a>` tag without any worry.)
 
 - **Plugins** ➡️ You can install a plugin using `npm install <plugin-name>`
 
